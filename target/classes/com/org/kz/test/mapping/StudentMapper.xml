@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.org.kz.test.mapping.StudentMapper" >
+  
+  <resultMap id="BaseResultMap" type="com.org.kz.test.model.Student" >
+    <id column="sid" property="id" jdbcType="INTEGER" />
+    <result column="sname" property="sname" jdbcType="VARCHAR" />
+    <result column="gpa" property="gpa" jdbcType="DOUBLE" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+  </resultMap>
+   
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    SELECT * FROM STUDENT WHERE sid = #{sid,jdbcType=INTEGER}
+  </select>
+  
+  <select id="findAll" resultMap="BaseResultMap">
+  	SELECT * FROM STUDENT
+  </select>
+  
+  <delete id="deleteById" parameterType="java.lang.Integer">
+  	DELETE FROM STUDENT WHERE sid = #{sid,jdbcType=INTEGER}
+  </delete>
+  
+  <insert id="addStudent" parameterType="map">
+  	INSERT INTO STUDENT(sname, age, gpa) VALUES (#{sname},
+  	#{age},#{gpa})
+  </insert>
+  
+ 
+  
+</mapper>

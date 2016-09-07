@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tests]">
+  <test name="test1">
+    <classes>
+      <class name="testng.StudentTest"/>
+    </classes>
+  </test> <!-- test1 -->
+  <test name="test1(failed)">
+    <classes>
+      <class name="testng.StudentTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testGpa"/>
+        </methods>
+      </class> <!-- testng.StudentTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [tests] -->
