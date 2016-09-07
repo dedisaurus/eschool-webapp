@@ -1,0 +1,6 @@
+com\org\kz\test\model\Student.class
+com\org\kz\test\login\LoginController.class
+com\org\kz\test\login\LoginValidationService.class
+com\org\kz\test\mapping\PackageInfo.class
+com\org\kz\test\StudentController.class
+com\org\kz\test\mapping\StudentMapper.class

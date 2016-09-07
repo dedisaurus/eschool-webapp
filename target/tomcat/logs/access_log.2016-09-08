@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:00:39:50 +0600] "GET /eschool HTTP/1.1" 200 1808 http-bio-8080-exec-1 1107
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:00:39:50 +0600] "GET /webjars/bootstrap/3.3.6/css/styles.css HTTP/1.1" 404 949 http-bio-8080-exec-2 7
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:00:39:50 +0600] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:00:40:00 +0600] "POST /eschool HTTP/1.1" 200 3286 http-bio-8080-exec-4 732

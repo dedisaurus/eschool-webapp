@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18" started-at="2016-09-07T18:38:07Z" finished-at="2016-09-07T18:38:07Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18" started-at="2016-09-07T18:38:07Z" finished-at="2016-09-07T18:38:07Z">
+      <class name="testng.StudentTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.StudentTest@17c68925]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.StudentTest@17c68925]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testAge()[pri:0, instance:testng.StudentTest@17c68925]" name="testAge" duration-ms="4" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAge -->
+        <test-method status="PASS" signature="testGpa()[pri:0, instance:testng.StudentTest@17c68925]" name="testGpa" duration-ms="1" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGpa -->
+        <test-method status="PASS" signature="testName()[pri:0, instance:testng.StudentTest@17c68925]" name="testName" duration-ms="1" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testName -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.StudentTest@17c68925]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.StudentTest@17c68925]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-09-08T00:38:07Z" finished-at="2016-09-08T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng.StudentTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
